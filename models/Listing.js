@@ -41,8 +41,6 @@ const ListingSchema = new mongoose.Schema({
         type: String,
         required: true
     }
-
-
 })
 
 const Listing = mongoose.model("Listing", ListingSchema);
